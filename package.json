@@ -2,7 +2,7 @@
     "name": "pkgroll-multi-platform",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "dist/index.node.js",
     "scripts": {
         "build": "pkgroll --clean-dist"
     },
@@ -20,7 +20,7 @@
         "@tsconfig/node18": "^18.2.4",
         "@tsconfig/strictest": "^2.0.5",
         "@types/node": "^22.5.4",
-        "pkgroll": "^2.4.2",
+        "pkgroll": "2.4.3",
         "typescript": "^5.6.2"
     }
 }
